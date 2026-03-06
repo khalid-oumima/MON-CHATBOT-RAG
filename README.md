@@ -27,3 +27,46 @@ Ce projet est un assistant IA conversationnel basé sur l'architecture **RAG (Re
   ```bash
   ollama pull llama3
   ollama pull nomic-embed-text
+2. Configurer l'environnement
+Bash
+
+# Cloner le dépôt
+git clone [https://github.com/khalid-oumima/MON-CHATBOT-RAG.git](https://github.com/khalid-oumima/MON-CHATBOT-RAG.git)
+cd MON-CHATBOT-RAG
+
+# Créer l'environnement virtuel
+python -m venv venv
+
+# Activer l'environnement (Windows)
+.\venv\Scripts\activate 
+
+# Installer les bibliothèques nécessaires
+pip install -r requirements.txt
+
+🚀 Utilisation
+
+    Chargement du document : Placez votre fichier PDF (ex: votre CV) dans le dossier data/.
+
+    Ingestion des données : Transformez le texte en vecteurs mathématiques stockés localement.
+    Bash
+
+    python ingestion.py
+
+    Lancement du Chatbot : Démarrez l'interface utilisateur.
+    Bash
+
+    streamlit run app.py
+
+📂 Structure du projet
+
+    app.py : Le moteur de l'application et l'interface utilisateur Streamlit personnalisée.
+
+    ingestion.py : Le pipeline de données (chargement, découpage du texte, vectorisation via Ollama).
+
+    assets/ : Captures d'écran et ressources visuelles du projet.
+
+    data/ : Dossier contenant les documents sources à analyser (PDF).
+
+    faiss_index_react/ : La base de données vectorielle générée localement (exclue de Git par sécurité).
+
+Développé avec ❤️ par Khalid Oumima
