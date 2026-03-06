@@ -1,5 +1,5 @@
 # 🤖 Local-RAG Resume Assistant (Privacy-First)
-![Interface du Chatbot](./assets/screenshot3.pngscreenshot.png)
+![Interface du Chatbot](assets/screenshot3.png)
 
 Ce projet est un assistant IA conversationnel basé sur l'architecture **RAG (Retrieval-Augmented Generation)**. Il permet d'interroger un CV (ou tout document PDF) de manière totalement locale, garantissant une confidentialité absolue des données.
 
