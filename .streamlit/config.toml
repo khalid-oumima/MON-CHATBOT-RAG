@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#00FFA3" # Vert néon type terminal
+backgroundColor = "#0E1117" # Noir profond
+secondaryBackgroundColor = "#1E2130" # Gris bleu sombre
+textColor = "#FFFFFF"
+font = "sans serif"
